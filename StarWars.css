@@ -1,0 +1,63 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blueviolet;
+    }
+    
+    li {
+    float: left;
+    }
+    
+    li a {
+    display: block;
+    color:cornsilk;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+    }
+
+    li a:hover {
+    background-color: lightsalmon;
+    }
+
+    .flex-container {
+    display: flex;
+    flex-direction: wrap;
+    }
+
+    .flex-container>div {
+    padding: 50px 60px;
+    margin: 10px 10px;
+    border: solid;
+    border-color: blueviolet;
+    }
+
+    .footer {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background-color: tomato;
+    color: white;
+    text-align: center;
+    }
+    .jedi {
+    text-align: center; color: crimson;
+    text-decoration: line-through;
+    font-size: 75px;
+    }
+
+    h2 {
+    font-family:cursive; color: brown;
+    font-size: 50px;
+    }
+
+    p {
+    font-family: 'Press Start 2P', cursive;
+    }
+    
+
+    

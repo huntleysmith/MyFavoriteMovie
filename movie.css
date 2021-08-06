@@ -1,0 +1,64 @@
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color:crimson;
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: blanchedalmond;
+text-align: center;
+padding: 15px 15px;
+text-decoration: none;
+}
+
+li a:hover {
+background-color: lawngreen;
+}
+
+.footer {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background-color: slategray;
+    color: mintcream;
+    text-align: center;
+    }
+    
+
+    .episode {
+    background-color: cyan;
+    text-align: center;
+    }
+
+h2 {
+font-size: 50px;
+}
+
+p {
+font-family: 'Press Start 2P', cursive;
+text-align: 60px;
+}
+
+#color {
+font-size: 55px;
+color: orangered;
+text-decoration: underline;
+}
+
+img:hover {
+opacity: 0.8;
+border: solid;
+border-color: orangered;
+}
+   
+
+   
